@@ -1,0 +1,94 @@
+.app {
+  background-color: white;
+  
+  height: 100vh;
+  width: 100vw;
+}
+
+.company-logo {
+  position: fixed;
+  top: 0;
+  left: 1em;
+}
+
+.center-content {
+  height: calc(75vh);
+  width: calc(100vw - 4em);
+
+  margin: 0 2em;
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pitch-line {
+  font-size: 3em;
+
+  max-width: 920px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.description {
+  font-weight: 400;
+  max-width: 920px;
+
+  padding-bottom: 32px;
+}
+
+.form-group {
+  display: flex;
+  gap: 16px;
+}
+
+.email-input, .demo-request {
+  border-radius: 8px;
+  border: 1px solid #222222;
+  box-sizing: border-box;
+  display: inline-block;
+
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+
+  margin: 0;
+  outline: none;
+  padding: 13px 23px;
+
+  text-decoration: none;
+}
+
+.demo-request {
+  background-color: #d0ff7ee4;
+
+  text-align: center;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+}
+
+.demo-request:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow .2s;
+}
+
+.demo-request:active {
+  background-color: #F7F7F7;
+  border-color: #000000;
+  transform: scale(.96);
+}
+
+.network-img {
+  position: fixed;
+  bottom: 10%;
+  right: 10%;
+
+  opacity: 70%;
+  max-width: 30vw;
+  max-height: 30vh;
+}
+
