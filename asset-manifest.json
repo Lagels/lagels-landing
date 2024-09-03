@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/lagels-landing/static/css/main.1b25a613.css",
-    "main.js": "/lagels-landing/static/js/main.3cc208b2.js",
-    "static/js/453.b63f201f.chunk.js": "/lagels-landing/static/js/453.b63f201f.chunk.js",
-    "static/media/network.svg": "/lagels-landing/static/media/network.79c2321e33c527a97a5581df0dd8ce0e.svg",
-    "index.html": "/lagels-landing/index.html",
-    "main.1b25a613.css.map": "/lagels-landing/static/css/main.1b25a613.css.map",
-    "main.3cc208b2.js.map": "/lagels-landing/static/js/main.3cc208b2.js.map",
-    "453.b63f201f.chunk.js.map": "/lagels-landing/static/js/453.b63f201f.chunk.js.map"
+    "main.css": "/static/css/main.1b25a613.css",
+    "main.js": "/static/js/main.02fa0bc0.js",
+    "static/js/453.b63f201f.chunk.js": "/static/js/453.b63f201f.chunk.js",
+    "static/media/network.svg": "/static/media/network.79c2321e33c527a97a5581df0dd8ce0e.svg",
+    "index.html": "/index.html",
+    "main.1b25a613.css.map": "/static/css/main.1b25a613.css.map",
+    "main.02fa0bc0.js.map": "/static/js/main.02fa0bc0.js.map",
+    "453.b63f201f.chunk.js.map": "/static/js/453.b63f201f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b25a613.css",
-    "static/js/main.3cc208b2.js"
+    "static/js/main.02fa0bc0.js"
   ]
 }
