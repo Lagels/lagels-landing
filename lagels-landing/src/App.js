@@ -13,7 +13,7 @@ function App() {
       </p>
       <form target="_blank" action="https://formsubmit.co/fcf823ec808ee68a0afc6de035f2a387" method="POST">
         <div class="form-group">
-          <input type="email" name="email" className="email-input" placeholder="name@firm.com" required/>
+          <input type="email" name="email" className="email-input" placeholder="yourname@firm.com" required/>
           <button type="submit" className='demo-request'>Request demo</button>
         </div>
       </form>
