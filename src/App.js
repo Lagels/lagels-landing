@@ -11,7 +11,7 @@ function App() {
         Intuitive. Individualised. 
         Gather the information you need, manage and deliver accurate responses to queries, have more time to focus delivering the best legal service possible.
       </p>
-      <form target="_blank" action="https://formsubmit.co/fcf823ec808ee68a0afc6de035f2a387" method="POST">
+      <form target="_blank" action="https://formsubmit.co/hello@lagels.com" method="POST">
         <div class="form-group">
           <input type="email" name="email" className="email-input" placeholder="yourname@firm.com" required/>
           <button type="submit" className='demo-request'>Request demo</button>
