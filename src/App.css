@@ -48,6 +48,7 @@
 .form-group {
   display: flex;
   gap: 16px;
+  margin-top: 30px;
 }
 
 .email-input, .demo-request {
@@ -65,6 +66,11 @@
   padding: 13px 23px;
 
   text-decoration: none;
+}
+
+.email-input {
+  flex: 2; 
+  min-width: 400px; 
 }
 
 .demo-request {
