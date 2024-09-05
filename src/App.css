@@ -105,3 +105,19 @@
   max-height: 30vh;
 }
 
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .email-input {
+    width: 100%; /* Full width on mobile */
+    min-width: auto; /* Remove fixed min-width */
+  }
+
+  .form-group {
+    flex-direction: column; /* Stack vertically on mobile */
+    gap: 10px; /* Reduce gap for mobile */
+  }
+
+  .demo-request {
+    width: 100%; /* Full width for button on mobile */
+  }
+}
