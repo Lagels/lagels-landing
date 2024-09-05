@@ -6,10 +6,9 @@ function App() {
     <div className="app">
      <h1 className='company-logo'>Lagels</h1>
      <div className='center-content'>
-      <h2 className='pitch-line'>Never leave your clients waiting for simple answers again.</h2>
+      <h2 className='pitch-line'>The World's First Legal Process Database.</h2>
       <p className='description'>
-        Intuitive. Individualised. 
-        Gather the information you need, manage and deliver accurate responses to queries, have more time to focus delivering the best legal service possible.
+        Revolutionising legal workflows with a transparent, AI-powered platform built on the world’s first open-source legal process database. Automate tasks, customise processes, and access trusted, data-driven insights to streamline legal work for both customers and professionals—anytime, anywhere.
       </p>
       <form target="_blank" action="https://formsubmit.co/hello@lagels.com" method="POST">
         <div class="form-group">
