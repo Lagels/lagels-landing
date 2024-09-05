@@ -106,7 +106,7 @@
 }
 
 /* Media Query for Mobile */
-@media (max-width: 768px) {
+@media (max-width: 430px) {
   .email-input {
     width: 100%; /* Full width on mobile */
     min-width: auto; /* Remove fixed min-width */
@@ -119,5 +119,9 @@
 
   .demo-request {
     width: 100%; /* Full width for button on mobile */
+  }
+
+  .network-img {
+    display: none;
   }
 }
