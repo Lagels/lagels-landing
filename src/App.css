@@ -7,35 +7,42 @@
 
 .company-logo {
   position: fixed;
-  top: 0;
-  left: 1em;
+  top: 1em; /* Adjust this value for the vertical positioning */
+  left: 1em; /* Adjust this value for the horizontal positioning */
+  display: flex;
+  align-items: center;
+}
+
+.company-logo img {
+  height: 35px !important; /* Set the height of the logo */
+  width: auto;  /* Keep width auto to maintain aspect ratio */
+  margin-right: 10px; /* Add space between logo and text if text is present */
 }
 
 .center-content {
-  height: calc(75vh);
+  height: calc(75vh); /* Keep the height the same */
   width: calc(100vw - 4em);
-
   margin: 0 2em;
-
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start; /* Change this from center to flex-start */
+  padding-top: 100px; /* Add padding to push the content down */
 }
 
 .pitch-line {
   font-size: 3em;
-
   max-width: 920px;
   margin-bottom: 0;
   padding-bottom: 0;
+  color: #2e415aff; 
 }
 
 .description {
   font-weight: 400;
   max-width: 920px;
-
   padding-bottom: 32px;
+  color: #2e415aff; 
 }
 
 .form-group {
@@ -61,7 +68,7 @@
 }
 
 .demo-request {
-  background-color: #d0ff7ee4;
+  background-color: #f77370ff;
 
   text-align: center;
   touch-action: manipulation;
