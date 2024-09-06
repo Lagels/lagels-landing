@@ -22,7 +22,7 @@ function App() {
 
           <div className="form-group">
             <input className="email-input" type="email" name="email" placeholder="Your email" required />
-            <button className="demo-request" type="submit">Request Demo</button>
+            <button className="demo-request" type="submit">Join the Waitlist</button>
           </div>
         </form>
 
