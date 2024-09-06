@@ -10,7 +10,7 @@ function App() {
       </div>
 
       <div className='center-content'>
-        <h2 className='pitch-line'>Build your legal processes once and never again.</h2>
+        <h2 className='pitch-line'>Build your legal or tax processes once and never again.</h2>
         <p className='description'>
           We’ll create a unique, private URL for you to share with your customers. They’ll complete the process using our guided, AI-powered platform. And we’ll send you an output document for review.
         </p>
