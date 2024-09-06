@@ -10,9 +10,9 @@ function App() {
       </div>
 
       <div className='center-content'>
-        <h2 className='pitch-line'>The World's First Legal Process Database.</h2>
+        <h2 className='pitch-line'>Build your legal processes once and never again.</h2>
         <p className='description'>
-          Revolutionising legal workflows with a transparent, AI-powered platform built on the world’s first open-source legal process database. Automate tasks, customise processes, and access trusted, data-driven insights to streamline legal work for both customers and professionals—anytime, anywhere.
+          We’ll create a unique, private URL for you to share with your customers. They’ll complete the process using our guided, AI-powered platform. And we’ll send you an output document for review.
         </p>
 
         <form className="contact-form" action="https://api.web3forms.com/submit" method="POST">
